@@ -1,0 +1,41 @@
+h1 {
+     color: blue;
+     margin: 0;
+     padding: 20px 0;
+     color: #00539f;
+     text-shadow: 3px 3px 1px black;
+     text-align: center;
+
+    
+}
+
+body {
+   background-color: thistle;
+}
+h2 {
+
+    color: cornflowerblue;
+}
+
+li {
+    color: #9a3939;
+}
+
+h3 {
+
+    color: aqua;
+}
+img {
+    display: block;
+    margin: auto;
+}
+h4 {
+    color: crimson;
+}
+h5 {
+
+    color: aquamarine;
+}
+p{
+    color: darkgreen;
+}
