@@ -27,11 +27,13 @@ li {
 h3 {
 
     color: aqua;
-    text-shadow: 0cqh;
+    font-size: x-large;
 }
 img {
     display: block;
     margin: auto;
+    height:500px
+
 }
 h4 {
     color: crimson;
@@ -42,12 +44,23 @@ h5 {
 }
 p{
     color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    b
 }
 /* color for maclassse */
 .maclasse{
     color: aliceblue;
+    font-size: x-large;
 }
 
-.id.guerre {
+.id.lUNESCO {
     color: tomato;
 }
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
