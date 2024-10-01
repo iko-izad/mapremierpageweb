@@ -1,8 +1,7 @@
-h1 { 
+h1 {
     color: blue;
     margin: 0; 
-    padding: 20px 0;
-     color: #00539f;
+    color: #00539f;
     text-shadow: 2px 2px 5px red;
     text-align: center;
  }

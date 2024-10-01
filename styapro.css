@@ -5,10 +5,14 @@ h1 {
     font-size: 3.5em;
     color: #A5B4FC;
     font-family: 'Montserrat';
+    text-shadow:2px 2px 5px black;
+
 }
 p {
     font-size: 1.1em;
     font-family: 'Manrope';
+    color: rgb(199, 96, 243);
+    text-decoration-line:underline;
 }
 
  li {
@@ -23,4 +27,28 @@ a {
 .maclasse {
     font-size: 1.1em;
     font-family: 'Manrope';
+}
+
+.outset {
+    padding: 20px;
+  
+    border-radius: 10px 10px 10px;
+    width: 100px;
+
+}
+
+.rounder {
+    border-radius: 50px; 
+}
+
+.container {
+    border: solid white;
+    border-right: 25px red solid;
+    border-left: 20px blue solid;
+    border-top: 3px white solid; 
+    border-bottom: 1px solid #8e86b5; 
+    padding: 10px;
+    background-color: beige;
+
+
 }
