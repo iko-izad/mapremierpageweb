@@ -1,0 +1,11 @@
+.footer {
+    position: fixed;  /* Fixe le footer en bas de la fenêtre */
+    left: 0; /* Positionne le côté gauche à 0 pixels */
+    bottom: 0; /* Positionne le bas à 0 pixels */
+    width: 100%;  /* Prend toute la largeur de la fenêtre */
+    background-color:yellow;  /* Définit la couleur de fond en gris */
+    color:grey; /* Définit la couleur du texte en blanc */
+    text-align: center;  /* Centre le texte horizontalement */
+ }
+
+

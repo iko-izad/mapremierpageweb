@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 40px; /* Supprime le remplissage intérieur de la liste */
+   border-bottom: red solid;
+   border-right:20px yellow solid;
+   border-top: black solid;
+   background-color:green;
+   border-left: 20px red solid;
+   border-radius: 40% 20% 30% / 80% 80% 80%;
+  
+  }
+  
+  li {
+    float: left; /* Aligne les éléments de la liste horizontalement */
+  }
+  
+  li a {
+    display: block; /* Chaque lien occupe tout l'espace disponible dans l'élément `li` */
+   color: white;  /* Définit la couleur du texte des liens */
+    text-align: center;  /* Centre le texte à l'intérieur des liens */
+    padding: 14px 16px;  /* Ajoute du rembourrage autour du texte du lien */
+    text-decoration: none;  /* Enlève le soulignement par défaut des liens */
+  
+  
+    
+  }
+  
+  
+  li a:hover {
+    background-color: black; /* Change la couleur de fond lors du survol des liens qui ne sont pas actifs */
+
+  }
+  
+ 
+
+body{
+   
+    background-color: rgb(107, 199, 16); /* Définit la couleur de fond du corps en vert */
+
+}
+
+p{
+
+  text-shadow:2px 2px 5px red;
+  text-decoration-line: underline;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 550px;
+    margin: 20px;
+
+}
+
+    
