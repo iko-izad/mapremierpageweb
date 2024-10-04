@@ -8,3 +8,7 @@ table, th, td {
 th {
     background-color: aqua;
   }
+
+h2{
+  text-align: center;
+}
