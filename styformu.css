@@ -1,14 +1,66 @@
 body{
-    background-color: darkslategray;
+    background-color: darkslategray; /* Définit un fond de couleur gris ardoise foncé pour la page */
 }
 
-.Vos{
-    border: 1px black solid;
-    text-transform: lowercase;
+
+.vg{
+    border: 2px solid black;
+    border-radius: 5px; /* Arrondit les coins de l'élément avec un rayon de 5px */
+    font-family: cursive;
+    background-color: beige;
+    
+  }
+  
+  .cd{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: cursive; /* Utilise une police cursive pour le texte à l'intérieur de l'élément */
+
+    background-color: beige;
+  
+  }
+
+.corl{
+    background-color: rgb(102, 121, 204);
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 1px;
+    font-family: cursive;
+  
+
+}
+
+.corlu {
     background-color: plum;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 40px;  /* Ajoute un espacement interne de 40px autour du contenu de l'élément */
+    font-family: cursive;
 
 }
 
 
+:required {
+  background-color: pink;
+}
 
+:focus {
+  background-color: rgb(245, 186, 47);
 
+}
+/* pour les écrans, quand la largeur de la fenetre fait au maximum 1200px */
+@media  screen and(max-width: 1200px) {
+  
+}
+/*pour tous types d' écrans, quand la largeur de la fentre est comprise entre 1024px et 1200px*/
+
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  p {
+    
+  }
+  
+}
+
+@media all and (orientation: portrait ){
+
+}
